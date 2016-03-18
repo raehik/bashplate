@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 #
 # bashplate: a clean, reusable Bash framework for simple scripts.
 #
@@ -44,6 +43,5 @@ _print_usage() {
 }
 ## }}}
 
-## Options {{{
+# command-line options
 source "$_BASHPLATE_DIR/getopts_long.sh"
-## }}}
