@@ -43,5 +43,13 @@ _print_usage() {
 }
 ## }}}
 
+## Argument checks {{{
+require_args() {
+    if [[ $2 != $1 ]]; then
+        _err "expected $2 arguments (got $1)" 1
+    fi
+}
+## }}}
+
 # command-line options
 source "$_BASHPLATE_DIR/getopts_long.sh"
