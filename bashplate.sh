@@ -5,7 +5,7 @@
 # make sure they gave us a directory for bashplate files
 if [[ ! -d "$_BASHPLATE_DIR" ]]; then
     >&2 echo "\
-bashplate error: \$_BASHPLATE_DIR is \ invalid or undefined: '$_BASHPLATE_DIR'"
+bashplate error: \$_BASHPLATE_DIR is invalid or undefined: '$_BASHPLATE_DIR'"
     exit 1
 fi
 
