@@ -22,7 +22,7 @@ writing shell scripts. It really does hardly anything:
   * Usage handling (send to stderr on failure)
   * Long options with POSIX correctness (!!!) thanks to `getopts_long`
 
-Seriously it's just barely over 100 lines (as of 2016-03-30). Commented fully
+Seriously it's just barely over 50 lines (as of 2016-08-25). Commented fully
 etc.
 
 
